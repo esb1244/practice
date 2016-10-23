@@ -1,0 +1,99 @@
+
+/* Global Styling */
+
+* {
+	box-sizing: border-box;
+	font-family: "Arial", sans-serif;
+}
+
+/* Global Header Styling */
+
+.header {
+	background-color: #D3D3D3;
+}
+#page-title {
+	padding: 10px;
+}
+/* Global Body Content Styling*/
+
+.menu-section {
+	border: 1px solid black;
+}
+
+.menu-heading {
+	position: relative;
+	float: right;
+	background-color: #ffffff;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	padding: 5px;
+
+}
+.menu-content {
+	clear: right;
+	padding: 15px;
+	overflow: hidden;
+}
+
+/* Individual Menu Section Styling */
+
+#chicken {
+	background-color: #87add4;
+}
+#chicken .menu-heading {
+	background-color: #1a6dc1;
+	color: white;
+}
+
+#beef {
+	background-color: #b8e1b7;
+}
+
+#beef .menu-heading {
+	background-color: #41a23f;
+	color: white;
+}
+
+#sushi {
+	background-color: #d17b7c
+}
+
+#sushi .menu-heading {
+	background-color: #c2292b;
+	color: white;
+}
+/* Mobile Breakpoints & Styling */
+@media (max-width: 767px) {
+	.menu-section {
+		width: 100%;
+	}
+}
+
+/*Tablet Breakpoints & Styling */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	#chicken,
+	#beef {
+		width: 50%;
+		position: relative;
+	}
+	#chicken {
+		float: left;
+	}
+	#beef {
+		float: right;
+	}
+	#sushi {
+		clear: both;
+	}
+}
+
+/* Desktop Breakpoints & Styling */
+@media (min-width: 992px) {
+
+	.menu-section {
+		width: 33.33%;
+		float: left;
+	}
+}
+
