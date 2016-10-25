@@ -1,12 +1,20 @@
+/* Global Styles */
+
 * {
 	margin: 0;
 	padding: 0;
 	font-family: "Arial", sans-serif;
 
 }
-/* Simple Responsive Framework */
+
+/* Heading */
+
 .title-div {
-	padding: 10px;
+	padding: 20px;
+}
+.title-div #title {
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .row {
